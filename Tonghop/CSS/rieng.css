@@ -1,0 +1,113 @@
+.dbox {
+    width: 100%;
+    background-color: var(--mau3);
+    padding: 15px 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.dbox .n1 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dbox .n1 ul li {
+    margin: 0 20px;
+    font-size: 25px;
+    position: relative;
+}
+
+.menu1 {
+    display: none;
+    width: 200px;
+    background-color: var(--mau3);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.dbox .n1 ul li:hover .menu1 {
+    display: block;
+}
+
+.menu1 a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu1 a:hover {
+    background-color:var(--mau2);
+    color: black;
+}
+
+.me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* logo va menu*/
+.gd .anhlogo img{
+    width:100px;
+    height:auto;
+    margin-right:20px;
+
+}
+.gd .anhlogo{
+    display:flex;
+    justify-content:center;
+    white-space: pre-line;
+
+
+}
+.gd{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+
+    
+}
+.gd .anhlogo .sp1{
+    font-size:40px;
+    font-weight: 600;
+}
+.gd .anhlogo .sp2{
+    font-size:25px;
+    font-weight:300;
+}
+
+
+.gd .ds ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.gd .ds ul li{
+    justify-content:space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+    white-space: nowrap
+}
+.gd .ds ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+.gd .ds{
+    justify-content:end;
+    width:50%;
+} 
